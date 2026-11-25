@@ -1,0 +1,44 @@
+# Generated builds and distribution files
+**/bin/
+**/obj/
+**/build-native/
+**/build/
+**/dist/
+**/dist-single/
+**/out/
+**/.vs/
+**/__pycache__/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/setup.inf
+**/setup.rpt
+
+# Compiled files and archives are never part of this source-only repository
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+*.pdb
+*.pch
+*.cab
+*.zip
+*.rar
+*.7z
+*.pyc
+*.user
+*.suo
+*.log
+
+# Local credentials and account data
+.env
+.env.*
+!.env.example
+accounts.json
+settings.json
+recovered-accounts.txt
+*.key
+*.pem
